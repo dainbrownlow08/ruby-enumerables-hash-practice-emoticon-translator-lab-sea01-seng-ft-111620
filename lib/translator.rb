@@ -11,7 +11,6 @@ def load_library(file_path)
   data
 end
 
-
 def get_japanese_emoticon(file_path, emoticon)
   data = load_library(file_path)
   data.each do |meaning,equivalent|
